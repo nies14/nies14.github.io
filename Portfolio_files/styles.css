@@ -123,10 +123,6 @@ body {
     z-index: 1;
 }
 
-#publications .card {
-    border-left: 4px solid #007bff !important;
-}
-
 #publications .btn-sm {
     padding: 0.25rem 1rem;
 }
