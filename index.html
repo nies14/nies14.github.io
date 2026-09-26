@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:description" content="Tanvir Hassan Portfolio">
     <meta property="og:image" content="docs/images/preview.png">
@@ -9,16 +9,17 @@
     <!-- Bootstrap CSS -->
     <link href="./Portfolio_files/bootstrap.min.css" rel="stylesheet">
 
-    <link href="./Portfolio_files/cascadia-code" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./Portfolio_files/styles.css" rel="stylesheet" type="text/css" charset="utf-8">
 
-    <title>Portfolio</title>
+    <title>Tanvir Hassan — Portfolio</title>
 </head>
 
-<body data-scholarcy-content-script-executed="1" data-new-gr-c-s-check-loaded="14.1222.0" data-gr-ext-installed="">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Portfolio</a>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark" id="mainNav">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand serif" href="#home">Tanvir Hassan</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,6 +31,7 @@
                     <a class="nav-link" href="#skills">Skills</a>
                     <a class="nav-link" href="#publications">Publications</a>
                     <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#awards">Awards</a>
                     <a class="nav-link" href="#contact">Contact</a>
                 </div>
             </div>
@@ -38,16 +40,18 @@
 
     <section class="main">
         <!-- Home section -->
-        <div class="container-fluid px-0 mb-5" id="home">
-            <div class="position-relative" style="max-height: 60vh;">
-                <div class="overlay-pattern"></div>
-                <img class="img-fluid w-100 h-100" src="./Portfolio_files/bg-2.jpg" alt="background" style="object-fit: cover; max-height: 60vh;">
-                <div class="position-absolute top-50 start-50 translate-middle text-center p-5 glass-effect">
-                    <h1 class="display-4 fw-bold mb-3">Tanvir Hassan</h1>
-                    <hr class="w-50 mx-auto">
-                    <p class="lead mb-0">
-                        Committed to the Bit.
-                    </p>
+        <div class="container-fluid px-0" id="home">
+            <div class="hero d-flex align-items-center">
+                <div class="container">
+                    <h1 class="serif hero-title">Tanvir Hassan</h1>
+                    <p class="hero-lead">Team Lead at <span class="hero-accent">Fix Network World</span> — building full-stack platforms, agentic tooling, and computer-vision research.</p>
+                    <p class="serif hero-tagline">Committed to the Bit.</p>
+                    <div class="d-flex flex-wrap gap-2 mt-4">
+                        <a href="mailto:tanvirhassan970@gmail.com" class="pill-link">Email</a>
+                        <a href="https://www.linkedin.com/in/tanvirhassannies/" target="_blank" class="pill-link">LinkedIn</a>
+                        <a href="https://github.com/nies14" target="_blank" class="pill-link">GitHub</a>
+                        <a href="https://scholar.google.com/citations?user=" target="_blank" class="pill-link">Google Scholar</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,110 +59,122 @@
         <!-- Work Experience section -->
         <div class="container-fluid section-padding" id="experience">
             <div class="container">
-                <h2 class="section-title mb-4">Work Experience</h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <span class="eyebrow">Career</span>
+                <h2 class="section-title serif mb-4">Work Experience</h2>
+                <div class="d-flex flex-column gap-3">
 
-                    <div class="col">
-                        <a href="https://www.fixnetwork.com/en/about-us/" target="_blank" class="text-decoration-none">
-                            <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                                <div class="card-img-top experience-img" style="background-image: url('https://www.fixnetwork.com/wp-content/uploads/2024/07/1.png');"></div>
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-2">
-                                        <h5 class="card-title fw-bold mb-0" style="color: black;">Software Developer</h5>
-                                    </div>
-                                    <h6 class="text-muted mb-2">Fix Network, Blainville</h6>
-                                    <span class="badge bg-primary">March 2025 - Present</span>
-                                </div>
+                    <div class="exp-card">
+                        <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
+                            <div>
+                                <h3 class="serif exp-title">Team Lead</h3>
+                                <a href="https://www.fixnetwork.com/en/about-us/" target="_blank" class="exp-company">Fix Network World, Blainville, QC</a>
                             </div>
-                        </a>
-                    </div>
-
-                    <div class="col">
-                        <a href="https://www.123loadboard.com/" target="_blank" class="text-decoration-none">
-                            <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                                <div class="card-img-top experience-img" style="background-image: url('https://s1pststd03.blob.core.windows.net/cms/2016/05/123Loadboard-team.jpg');"></div>
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-2">
-                                        <h5 class="card-title fw-bold mb-0" style="color: black;">Software Developer</h5>
-                                    </div>
-                                    <h6 class="text-muted mb-2">123Loadboard, Montreal</h6>
-                                    <span class="badge bg-primary">May 2023 - June 2024</span>
-                                </div>
-                            </div>
-                        </a>
+                            <span class="badge exp-badge exp-badge-current">March 2025 — Present</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Developed a Model Context Protocol (MCP) server using Node.js &amp; TypeScript that enables agentic AI clients to query and analyze the 50+ table Glassbooking MySQL schema, reducing Azure SQL migration cost by over 80%.</li>
+                            <li>Architected and delivered a full-stack quoting system for Auto Glass, Speedy Glass, and Novus Glass using .NET 10 Web API and React 19 with TypeScript, replacing a call-center workflow with an end-to-end self-serve quoting system.</li>
+                            <li>Designed and built a reusable AI-agent SDLC workflow for Claude Code and other coding agents, covering requirements engineering, architecture planning, task generation, TDD-based implementation, conventional commits, and parallel security, performance, and code-quality reviews.</li>
+                            <li>Designed and deployed production-grade .NET and NestJS services to Azure App Service via Azure DevOps CI/CD pipelines, incorporating OIDC federated credentials, change-detection for selective artifact builds, automated EF Core migrations, OpenTelemetry distributed tracing, and custom domains with Azure-managed SSL/TLS.</li>
+                            <li>Built production-grade API middleware backed by unit and integration tests, covering security (IP rate limiting, reCAPTCHA v3, CORS, browser-only access restrictions), observability (correlation-ID tracing, Application Insights, health checks across four databases), and resilience (global exception handling, fault handling, typed HTTP clients, and output caching).</li>
+                            <li>Designed and implemented role-based access control (RBAC) for the quoting dashboard using ASP.NET Core claims-based authorization and EF Core, restricting feature access across store, staff, and admin roles.</li>
+                            <li>Implemented production error monitoring using Application Insights, Azure Monitor alerts, and Microsoft Teams webhooks, enabling near-real-time incident notifications and faster issue resolution.</li>
+                            <li>Built a multi-step invoice form with TanStack React Query, React Context and useReducer for global state, Zod schema validation, and TailwindCSS, including progress scoring and error boundaries.</li>
+                            <li>Leading the full rewrite of the Glassbooking platform from a legacy Extenso monolith to a modern .NET 10, React, and Azure SQL architecture, currently migrating a 1M+ line codebase with a target of significantly reducing deployment time and onboarding complexity.</li>
+                            <li>Integrated NAGS pricing and AutoBot VIN &amp; Plate decode APIs to automate vehicle identification and glass quoting, eliminating manual lookup steps for store owners across Canadian and US regions.</li>
+                            <li>Integrated Google Calendar API via OAuth 2.0 to enable automated appointment syncing and persistent authentication for the technician scheduling system.</li>
+                            <li>Integrated QuickBooks for multi-store invoice and payment management, implementing dynamic per-item-type GL account resolution to ensure labor and parts revenue post to the correct accounts.</li>
+                        </ul>
                     </div>
 
-                    <div class="col">
-                        <a href="https://www.concordia.ca/" target="_blank" class="text-decoration-none">
-                            <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                                <div class="card-img-top experience-img" style="background-image: url('https://wadscccg2023.encs.concordia.ca/assets/images/Concordia.png')"></div>
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-2">
-                                        <h5 class="card-title fw-bold mb-0" style="color: black;">Graduate Teaching Assistant</h5>
-                                    </div>
-                                    <h6 class="text-muted mb-2">Concordia University, Montreal</h6>
-                                    <span class="badge bg-primary">January 2022 - April 2023</span>
-                                </div>
+                    <div class="exp-card">
+                        <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
+                            <div>
+                                <h3 class="serif exp-title">Software Developer, Integration</h3>
+                                <a href="https://www.123loadboard.com/" target="_blank" class="exp-company">123Loadboard, Montreal, QC</a>
                             </div>
-                        </a>
-                    </div>
-                    
-                    <div class="col">
-                        <a href="https://www.concordia.ca/" target="_blank" class="text-decoration-none">
-                            <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                                <div class="card-img-top experience-img" style="background-image: url('https://wadscccg2023.encs.concordia.ca/assets/images/Concordia.png')"></div>
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-2">
-                                        <h5 class="card-title fw-bold mb-0" style="color: black;">Graduate Research Assistant</h5>
-                                    </div>
-                                    <h6 class="text-muted mb-2">Concordia University, Montreal</h6>
-                                    <span class="badge bg-primary">January 2021 - April 2023</span>
-                                </div>
-                            </div>
-                        </a>
+                            <span class="badge exp-badge">May 2023 — Jun 2024</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Developed APIs and microservices for third-party integrators using .NET Core, adhering to SOLID principles and clean coding practices, for a mobile app serving over 835K users and 72M loads monthly.</li>
+                            <li>Reduced existing integrator truck-search query time from ~2 seconds to ~17 milliseconds using proper indexing and parameter sniffing.</li>
+                            <li>Implemented token-based load search functionality to enhance user experience.</li>
+                            <li>Designed integrator signup and login pages using ASP.NET Core 6 MVC with Razor Pages.</li>
+                            <li>Helped different TMS companies (e.g., AscendTMS, FleetOps, Tai TMS, and others) with API integration, troubleshooting load/truck posting, searching, and rate-checking issues.</li>
+                            <li>Developed an internal dashboard to monitor integration usage using Azure event hubs, Elasticsearch, and Kibana.</li>
+                            <li>Developed an industry compatibility adapter microservice for seamless integration and end-to-end CI/CD pipeline orchestration.</li>
+                            <li>Developed an automated system for generating integrator test accounts through the developer console.</li>
+                            <li>Trained new hires on CRUD endpoints using Repository Pattern and Entity Framework, with unit/integration testing.</li>
+                        </ul>
                     </div>
 
-                    <div class="col">
-                        <a href="https://brainstation-23.com/" target="_blank" class="text-decoration-none">
-                            <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                                <div class="card-img-top experience-img" style="background-image: url('https://brainstation-23.com/wp-content/uploads/2024/08/bs23_logo.png'); background-size: contain; height: 120px; background-position: center;"></div>
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-2">
-                                        <h5 class="card-title fw-bold mb-0" style="color: black;">Software Engineer</h5>
-                                    </div>
-                                    <h6 class="text-muted mb-2">Brain Station 23 PLC., Dhaka</h6>
-                                    <span class="badge bg-primary">October 2017 - May 2021</span>
-                                </div>
+                    <div class="exp-card">
+                        <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
+                            <div>
+                                <h3 class="serif exp-title">Graduate Teaching Assistant</h3>
+                                <a href="https://www.concordia.ca/" target="_blank" class="exp-company">Concordia University, Montreal, QC</a>
                             </div>
-                        </a>
+                            <span class="badge exp-badge">Jan 2022 — Apr 2023</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Conducted TA sessions for COMP478 (Image Processing), COEN243, and COEN244 (C++); prepared slides and programming exercises, answered emails from students, assisted with projects, marked exam papers, and addressed assignments and lab questions.</li>
+                        </ul>
                     </div>
+
+                    <div class="exp-card">
+                        <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
+                            <div>
+                                <h3 class="serif exp-title">Graduate Research Assistant</h3>
+                                <a href="https://www.concordia.ca/" target="_blank" class="exp-company">Concordia University, Montreal, QC</a>
+                            </div>
+                            <span class="badge exp-badge">Jan 2021 — Apr 2023</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Research area: Computer Vision, 2D to 3D Human Pose Estimation, Graph Convolutional Networks, Multilayer Perceptron.</li>
+                            <li>Designed a higher-order splitting graph network for 3D human pose estimation, achieving state-of-the-art results for spatial methods.</li>
+                            <li>Designed MLP-GraphWJ mixer, a novel spatio-temporal network architecture for 3D human pose estimation, achieving state-of-the-art results for temporal methods.</li>
+                        </ul>
+                    </div>
+
+                    <div class="exp-card">
+                        <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
+                            <div>
+                                <h3 class="serif exp-title">Software Engineer</h3>
+                                <a href="https://brainstation-23.com/" target="_blank" class="exp-company">Brain Station 23 PLC., Dhaka, Bangladesh</a>
+                            </div>
+                            <span class="badge exp-badge">Oct 2017 — May 2021</span>
+                        </div>
+                        <ul class="exp-bullets">
+                            <li>Reduced landing page loading time by 60% for a single page web application named SPORTWERKS, by implementing multi-threading and optimizing the database.</li>
+                            <li>Implemented dependency injection using Unity container.</li>
+                            <li>Implemented Generic Repository pattern and Unit of Work pattern to achieve abstraction.</li>
+                            <li>Developed APIs, automated player's injury inspection feature, tournament's budgeting feature, exporting data to Excel, sending email to players, implemented drag and drop feature, and mentored junior team members.</li>
+                            <li>Technologies: ASP.NET (Web Form, Web API, Web Services), Telerik Controls for ASP.NET AJAX, Dropthings, Entity Framework, SQL Server, JavaScript, jQuery, HTML, CSS, Bootstrap, SVN, Jira.</li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
 
         <!-- About section -->
-        <div class="container-fluid section-padding section-gradient-1" id="about">
+        <div class="container-fluid section-padding section-dark" id="about">
             <div class="container">
-                <h2 class="section-title text-white mb-4">Education</h2>
+                <span class="eyebrow eyebrow-light">Academics</span>
+                <h2 class="section-title serif text-white mb-4">Education</h2>
                 <div class="row g-4">
-                    <div class="col-md-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Masters of Applied Science, Computer Vision</h5>
-                                <p class="card-text">Concordia University</p>
-                                <p class="card-text"><small class="text-muted">2021-2023</small></p>
-                            </div>
+                    <div class="col-md-6">
+                        <div class="edu-card">
+                            <h3 class="serif edu-title">Master of Applied Science</h3>
+                            <p class="edu-sub">Specialization in Deep Learning and Computer Vision</p>
+                            <p class="edu-meta">Concordia University · CGPA 3.9 / 4.3 · Jan 2021 — Apr 2023</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">
-                                    BSc. in Computer Science and Engineering
-                                </h5>
-                                <p class="card-text">American International University-Bangladesh</p>
-                                <p class="card-text"><small class="text-muted">2014-2017</small></p>
-                            </div>
+                    <div class="col-md-6">
+                        <div class="edu-card">
+                            <h3 class="serif edu-title">B.Sc. in Computer Science &amp; Engineering</h3>
+                            <p class="edu-sub">American International University-Bangladesh</p>
+                            <p class="edu-meta">CGPA 3.91 / 4.00 · May 2014 — Dec 2017</p>
                         </div>
                     </div>
                 </div>
@@ -168,178 +184,105 @@
         <!-- Skills section -->
         <div class="container-fluid section-padding" id="skills">
             <div class="container">
-                <h2 class="section-title mb-4">Languages & Tech Stack</h2>
-                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                C#
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                C
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                C++
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                Python
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                JavaScript ES6
-                            </div>
+                <span class="eyebrow">Toolbox</span>
+                <h2 class="section-title serif mb-4">Skills</h2>
+                <div class="d-flex flex-column gap-4">
+
+                    <div>
+                        <span class="skill-group-label">Languages</span>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="chip">C#</span>
+                            <span class="chip">C++</span>
+                            <span class="chip">Python</span>
+                            <span class="chip">JavaScript</span>
+                            <span class="chip">TypeScript</span>
+                            <span class="chip">SQL</span>
+                            <span class="chip">Bash</span>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                Typescript
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                HTML5
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                CSS3
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                SQL Server
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                MongoDB
-                            </div>
+                    <div>
+                        <span class="skill-group-label">Backend</span>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="chip">.NET Core (Web API, MVC, Razor)</span>
+                            <span class="chip">ASP.NET</span>
+                            <span class="chip">Node.js</span>
+                            <span class="chip">Entity Framework Core</span>
+                            <span class="chip">SQL Server · MySQL · PostgreSQL</span>
+                            <span class="chip">RabbitMQ · SignalR · MongoDB · Redis</span>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                Git
-                            </div>
+                    <div>
+                        <span class="skill-group-label">Frontend</span>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="chip">React &amp; Hooks</span>
+                            <span class="chip">TanStack Query</span>
+                            <span class="chip">Zod</span>
+                            <span class="chip">TailwindCSS · Bootstrap</span>
+                            <span class="chip">jQuery</span>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                Bootstrap
-                            </div>
+
+                    <div>
+                        <span class="skill-group-label">Cloud, DevOps &amp; Observability</span>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="chip">Azure (Functions, API Mgmt, Event Hubs, Blob Storage)</span>
+                            <span class="chip">AWS (EC2, S3)</span>
+                            <span class="chip">Docker · Kubernetes</span>
+                            <span class="chip">Azure DevOps · GitHub Actions</span>
+                            <span class="chip">Elasticsearch · Kibana · Jaeger · Prometheus · Grafana</span>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                ASP.NET Core
-                            </div>
+
+                    <div>
+                        <span class="skill-group-label">ML / AI, Testing &amp; Security</span>
+                        <div class="d-flex flex-wrap gap-2 mt-2">
+                            <span class="chip">MCP Servers</span>
+                            <span class="chip">3D Human Pose Estimation</span>
+                            <span class="chip">xUnit · Moq · TDD</span>
+                            <span class="chip">SOLID · DRY</span>
+                            <span class="chip">OAuth2 · JWT</span>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                Express
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                Node JS
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                React JS
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <div class="card-body d-flex align-items-center justify-content-center">
-                                Rest API
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
 
         <!-- Publications section -->
-        <div class="container-fluid section-padding section-gradient-1" id="publications">
+        <div class="container-fluid section-padding section-tint" id="publications">
             <div class="container">
-                <h2 class="section-title text-white mb-4">Publications</h2>
-                <div class="row g-4">
-                    <div class="col-12">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Spatio-Temporal MLP-Graph Network for 3D Human Pose Estimation.</h5>
-                                <p class="text-muted mb-2">British Machine Vision Conference, 2023</p>
-                                <p class="card-text">Proposes a novel MLP-Graph network for accurate 3D human pose estimation from video sequences.</p>
-                                <div class="d-flex gap-2 mt-3">
-                                    <div class="flex-grow-1 d-flex gap-2" style="max-width: 25%;">
-                                        <a href="https://arxiv.org/pdf/2308.15313" class="btn btn-primary w-100" target="_blank">View Paper</a>
-                                    </div>
-                                    <a href="https://github.com/nies14/Spatio-Temporal-MLP-Graph" class="btn btn-outline-secondary" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                        </svg>
-                                        Code
-                                    </a>
-                                </div>
-                            </div>
+                <span class="eyebrow">Research</span>
+                <h2 class="section-title serif mb-4">Publications</h2>
+                <div class="d-flex flex-column gap-3">
+                    <div class="pub-card">
+                        <h3 class="serif pub-title">Spatio-Temporal MLP-Graph Network for 3D Human Pose Estimation</h3>
+                        <p class="pub-venue">British Machine Vision Conference (BMVC), Aberdeen, UK — Nov 2023</p>
+                        <p class="pub-text">A novel MLP-Graph mixer architecture achieving state-of-the-art temporal results for 3D pose estimation from video.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="https://arxiv.org/pdf/2308.15313" class="btn btn-dark-fill" target="_blank">View Paper</a>
+                            <a href="https://github.com/nies14/Spatio-Temporal-MLP-Graph" class="btn btn-outline-line" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                                Code
+                            </a>
                         </div>
                     </div>
 
-                    <div class="col-12">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Regular Splitting Graph Network for 3D Human Pose Estimation (RS-Net).</h5>
-                                <p class="text-muted mb-2">IEEE Transactions on Image Processing Journal, 2023.</p>
-                                <p class="card-text">A novel graph network for 3D human pose estimation from images.</p>
-                                <div class="d-flex gap-2 mt-3">
-                                    <div class="flex-grow-1 d-flex gap-2" style="max-width: 25%;">
-                                        <a href="https://arxiv.org/pdf/2305.05785" class="btn btn-primary w-100" target="_blank">View Paper</a>
-                                    </div>
-                                    <a href="https://github.com/nies14/RS-Net" class="btn btn-outline-secondary" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                        </svg>
-                                        Code
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="pub-card">
+                        <h3 class="serif pub-title">Regular Splitting Graph Network for 3D Human Pose Estimation (RS-Net)</h3>
+                        <p class="pub-venue">IEEE Transactions on Image Processing — 2023</p>
+                        <p class="pub-text">A higher-order splitting graph convolutional network for accurate 3D pose estimation from static images.</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="https://arxiv.org/pdf/2305.05785" class="btn btn-dark-fill" target="_blank">View Paper</a>
+                            <a href="https://github.com/nies14/RS-Net" class="btn btn-outline-line" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                                Code
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -349,61 +292,53 @@
         <!-- Projects section -->
         <div class="container-fluid section-padding" id="projects">
             <div class="container">
-                <h2 class="section-title mb-4">Projects</h2>
+                <span class="eyebrow">Side Builds</span>
+                <h2 class="section-title serif mb-4">Projects</h2>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
-                        <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title fw-bold mb-3">Job-Tracker</h5>
-                                <p class="card-text flex-grow-1">Job application tracker system with drag-and-drop functionality and JWT authentication, 
-                                    using the MERN stack. Deployed backend on Railway and frontend on Netlify</p>
-                                <div class="d-flex gap-2 mt-3">
-                                    <a href="https://jobapplications-tracker.netlify.app/" class="btn btn-primary flex-grow-1" target="_blank">Live Demo</a>
-                                    <a href="https://github.com/nies14/Job-Tracker" class="btn btn-outline-secondary" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                        </svg>
-                                        Code
-                                    </a>
-                                </div>
+                        <div class="proj-card d-flex flex-column h-100">
+                            <h3 class="serif proj-title">Job Tracker</h3>
+                            <p class="proj-text flex-grow-1">Job application tracker with drag-and-drop and JWT auth, using the MERN stack. Backend on Railway, frontend on Netlify.</p>
+                            <div class="d-flex gap-2 mt-3">
+                                <a href="https://jobapplications-tracker.netlify.app/" class="btn btn-dark-fill flex-grow-1" target="_blank">Live Demo</a>
+                                <a href="https://github.com/nies14/Job-Tracker" class="btn btn-outline-line" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    Code
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col">
-                        <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title fw-bold mb-3">E-Shop</h5>
-                                <p class="card-text flex-grow-1">Full-stack e-commerce platform built with ASP.NET Core and React. Features include user authentication, 
-                                    product management, shopping cart, and secure payment processing.</p>
-                                <div class="d-flex gap-2 mt-3">
-                                    <!-- https://eshop-demo.netlify.app/ -->
-                                    <a href="#" class="btn btn-primary flex-grow-1" target="_blank">Live Demo</a>
-                                    <a href="https://github.com/nies14/E-Shop" class="btn btn-outline-secondary" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                        </svg>
-                                        Code
-                                    </a>
-                                </div>
+                        <div class="proj-card d-flex flex-column h-100">
+                            <h3 class="serif proj-title">E-Shop</h3>
+                            <p class="proj-text flex-grow-1">Simplified e-commerce store built on microservice &amp; event-driven architecture for high availability and resilience.</p>
+                            <div class="d-flex gap-2 mt-3">
+                                <a href="#" class="btn btn-muted-fill flex-grow-1" target="_blank">Demo Offline</a>
+                                <a href="https://github.com/nies14/E-Shop" class="btn btn-outline-line" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    Code
+                                </a>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
-                        <div class="card h-100 border-0 shadow-sm hover-shadow" style="transition: all 0.3s ease;">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title fw-bold mb-3">Tic Tac Toe</h5>
-                                <p class="card-text flex-grow-1">A modern implementation of the classic TicTacToe game using .NET Core & SignalR for WebSocket communication between clients and the server</p>
-                                <div class="d-flex gap-2 mt-3">
-                                    <a href="https://github.com/nies14/TicTacToe/blob/main/TicTacToe/Demo/video.gif" class="btn btn-primary flex-grow-1" target="_blank">Live Demo</a>
-                                    <a href="https://github.com/nies14/TicTacToe" class="btn btn-outline-secondary" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                        </svg>
-                                        Code
-                                    </a>
-                                </div>
+                        <div class="proj-card d-flex flex-column h-100">
+                            <h3 class="serif proj-title">Tic Tac Toe</h3>
+                            <p class="proj-text flex-grow-1">A modern implementation of the classic Tic Tac Toe game using .NET Core &amp; SignalR for WebSocket communication between clients and the server.</p>
+                            <div class="d-flex gap-2 mt-3">
+                                <a href="https://github.com/nies14/TicTacToe/blob/main/TicTacToe/Demo/video.gif" class="btn btn-dark-fill flex-grow-1" target="_blank">Watch Demo</a>
+                                <a href="https://github.com/nies14/TicTacToe" class="btn btn-outline-line" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    Code
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -411,13 +346,42 @@
             </div>
         </div>
 
+        <!-- Awards section -->
+        <div class="container-fluid section-padding section-dark" id="awards">
+            <div class="container">
+                <span class="eyebrow eyebrow-light">Recognition</span>
+                <h2 class="section-title serif text-white mb-4">Awards &amp; Activities</h2>
+                <div class="row g-4 award-list">
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Concordia International Tuition Award of Excellence</li>
+                            <li>Concordia Merit Scholarship</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Magna Cum Laude, AIUB</li>
+                            <li>AIUB Dean's Award for outstanding academic results</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>3rd place, AIUB CS Fest '15 senior programming contest</li>
+                            <li>Solved 1000+ data structure &amp; algorithm problems across online judges</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Contact section -->
         <div class="container-fluid section-padding" id="contact">
-            <div class="container">
-                <h2 class="section-title mb-4">Contact</h2>
+            <div class="container text-center">
+                <span class="eyebrow">Get in touch</span>
+                <h2 class="section-title serif mb-4">Open to new roles, collaborations, and interesting problems.</h2>
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="d-flex gap-3 justify-content-center">
+                        <div class="d-flex gap-3 justify-content-center flex-wrap">
                             <a href="mailto:tanvirhassan970@gmail.com" target="_blank" class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path>
                                 </svg> Email</a>
@@ -428,6 +392,7 @@
                                     <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
                                 </svg> GitHub</a>
                         </div>
+                        <p class="text-muted mt-4">Montreal, QC, Canada</p>
                     </div>
                 </div>
             </div>
@@ -456,10 +421,12 @@
                     <a href="#projects" class="nav-link px-2 text-muted">Projects</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#awards" class="nav-link px-2 text-muted">Awards</a>
+                </li>
+                <li class="nav-item">
                     <a href="#contact" class="nav-link px-2 text-muted">Contact</a>
                 </li>
             </ul>
-            <!-- <p class="text-center text-muted">© Made with Bootstrap v5.0</p> -->
         </footer>
     </div>
 
@@ -469,26 +436,4 @@
     </script>
     <script src="./Portfolio_files/bootstrap.min.js.download" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
-
-
-<iframe id="zmZMEaGZ" frameborder="0" src="./Portfolio_files/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
-      div.grammarly-desktop-integration {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select:none;
-        user-select:none;
-      }
-
-      div.grammarly-desktop-integration:before {
-        content: attr(data-content);
-      }
-    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
+</body></html>
